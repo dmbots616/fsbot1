@@ -3,7 +3,7 @@ from logging.handlers import RotatingFileHandler
 
 # Bot Configuration
 LOG_FILE_NAME = "bot.log"
-PORT = '5010'
+PORT = '5022'
 OWNER_ID = 6497757690
 
 MSG_EFFECT = 5046509860389126442
@@ -14,17 +14,17 @@ SHORT_TUT = "https://t.me/How_to_Download_7x/26"
 
 # Bot Configuration
 SESSION = "albido"
-TOKEN = "642712"
-API_ID = ""
-API_HASH = ""
+TOKEN = "8456318826:AAFD1UVKk3aZNAndkVDAZSb2itvgt-W8C6k"
+API_ID = "21375775"
+API_HASH = "24a8567a7fa9209f79d4643b191c1ae4"
 WORKERS = 5
 
 DB_URI = "mongodb+srv://albido:albido@cluster0.urqs89c.mongodb.net/?appName=Cluster0"
 DB_NAME = "albido"
 
-FSUBS = [[-1003016571084, True, 10]] # Force Subscription Channels [channel_id, request_enabled, timer_in_minutes]
+FSUBS = [[-1003956177558, True, 10]] # Force Subscription Channels [channel_id, request_enabled, timer_in_minutes]
 # Database Channel (Primary)
-DB_CHANNEL =    # just put channel id dont add ""
+DB_CHANNEL = -1002800399682   # just put channel id dont add ""
 # Multiple Database Channels (can be set via bot settings)
 # DB_CHANNELS = {
 #     "-1002595092736": {"name": "Primary DB", "is_primary": True, "is_active": True},
@@ -36,7 +36,7 @@ AUTO_DEL = 300
 ADMINS = [6497757690, 6103092779]
 # Bot Settings
 DISABLE_BTN = True
-PROTECT = True
+PROTECT = False
 
 # Messages Configuration
 MESSAGES = {
